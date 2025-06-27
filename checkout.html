@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    <nav>
+        <ul>
+            <img src="assets\imges\logo.svg" alt="" class="logo_header">
+        </ul>
+        <ul class="link_header">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../shop.html">Shop</a></li>
+            <li><a href="../blog.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <ul class="menu_header">
+            <li><img src="assets\imges\account.svg" alt=""></li>
+            <li><img src="assets\imges\search.svg" alt=""></li>
+            <li><img src="assets\imges\heart.svg" alt=""></li>
+            <a href="#corzina"><li><img src="assets\imges\shopping-cart.svg" alt=""></li></a>
+        </ul>
+   </nav>
+   <div class="corzina" id="corzina">
+    <div class="wind_corz">
+        <div class="h_c">
+            <p class="z_corz">Shopping Cart</p>
+           <a href="#" class="close"><img src="assets\imges\zamok.svg" alt="" class="zamok"></a>
+        </div>
+        <div class="osn_c">
+            <div class="cards_c">
+                <div class="sofa1_c">
+                    <img src="assets\imges\mini_sofa1.svg" alt="" class="isofa1_c">
+                    <div class="osn_sofa">
+                        <div class="z_sofa">Asgaard sofa</div>
+                        <div class="cena_c"><p>1</p><p>x</p><p class="summa_c">Rs. 250,000.00</p>
+                        </div>
+                    </div>
+                    <img src="assets\imges\crest.svg" alt="" class="crestik1-c">
+                </div>
+                <div class="sofa1_c">
+                    <img src="assets\imges\mini_sofa2.svg" alt="" class="isofa1_c">
+                    <div class="osn_sofa">
+                        <div class="z_sofa">Casaliving Wood</div>
+                        <div class="cena_c"><p>1</p><p>x</p><p class="summa_c">Rs. 270,000.00</p></div>
+                    </div>
+                    <img src="assets\imges\crest.svg" alt="" class="crestik2-c">
+                </div>
+            </div>
+            <div class="niz_c">
+                <p class="subt_c">Subtotal</p>
+                <p class="summa_all_c">Rs. 520,000.00</p>
+            </div>
+        </div>
+        <div class="foot_c">
+            <a href="../cart.html"><button class="btn1_c">Cart</button></a>
+            <a href="../checkout.html"><button class="btn2_c">Checkout</button></a>
+            <a href="../product_comparison.html"><button class="btn3_c">Comparison</button></a>
+        </div>
+    </div>
+
+</div>
+</div>
+    <div class="hd">
+    <div class="osn1_hd">
+        <img src="assets\imges\logotip.svg" alt="" class="logotip">
+        <p class="z1_hd">Checkout</p>
+        <p class="sn1_hd"><a href="../index.html">Home ></a>Checkout</p>
+    </div>
+</div>
+    <form class="checkout">
+    <div class="b1_check">
+        <p class="z1_check">Billing details</p>
+        <div class="name_check">
+            <label class="form1-check">
+                <p class="lable2_check">First Name</p>
+                <input type="text" id="text1_check" required>
+            </label>
+            <label class="form1-check">
+                <p class="lable2_check">Last Name</p>
+                <input type="text" id="text1_check" required>
+            </label>
+        </div>
+        <label class="form2-check">
+            <p class="lable2_check">Company Name (Optional)</p>
+            <input type="text" id="text2_check">
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">Country / Region</p>
+            <input list="country" id="text2_check" placeholder="Sry Lanka" required>
+            <datalist id="country">
+                <option value="Russia">
+                </option><option value="South Korea">
+                </option><option value="Sweden">
+                </option><option value="Thailand">
+                </option><option value="Uruguay">
+                </option><option value="Spain">
+                </option><option value="Switzerland">
+                </option><option value="China">
+                </option><option value="Russia">
+                </option><option value="UAE">
+                </option><option value="Venezuel">
+                </option><option value="Japan">
+                </option><option value="Italy">
+                </option><option value="Brazil">
+                </option><option value="Mexico">
+                </option><option value="France">
+                </option><option value="Germany">
+                </option><option value="USA">
+                </option><option value="UK">
+            </option></datalist>
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">Street addres</p>
+            <input type="text" id="text2_check" required>
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">Town / Sity</p>
+            <input type="text" id="text2_check" required>
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">Province</p>
+            <input list="province" id="text2_check" placeholder="Western Province" required>
+            <datalist id="province">
+                <option value="Western Province">
+                </option><option value="Eastern Province">
+                </option><option value="Southern Province">
+                </option><option value="Northern Province">
+            </option></datalist>
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">ZIP code</p>
+            <input type="text" id="text2_check" required>
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">Phone</p>
+            <input type="text" id="text2_check" required>
+        </label>
+        <label class="form2-check">
+            <p class="lable2_check">Email addres</p>
+            <input type="email" id="text2_check" required>
+        </label>
+        <div class="form21-check">
+            
+            <input type="text" id="text2_check" placeholder="Additional information">
+        </div>
+    </div>
+    <div class="b2_check">
+        <div class="b21_check">
+            <div class="b211_check">
+                <p class="prod_check">Product</p>
+                <div class="tovar_name_check">
+                    <p class="n_t">Asgaard sofa</p>
+                    <p class="s_t">x</p>
+                    <p class="s_t">1</p>
+                </div>
+                <p class="t_sub_check">Subtotal</p>
+                <p class="t_sub_check">Total</p>
+            </div>
+            <div class="b212_check">
+                <p class="prod_check">Subtotal</p>
+                <p class="price_check">Rs. 250,000.00</p>
+                <p class="price_check">Rs. 250,000.00</p>
+                <p class="total_price_check">Rs. 250,000.00</p>
+            </div>
+        </div>
+        <div class="b22_check">
+            <div class="dir1">
+                <div class="chern"></div>
+                <p class="dir1_t">Direct Bank Transfer</p>
+            </div>
+            <p class="t_check">Make your payment directly into our bank account. Please use your Order ID as the payment
+                reference. Your order will not be shipped until the funds have cleared in our account.</p>
+            <div class="dir1">
+                <div class="pust"></div>
+                <p class="dir2_t">Direct Bank Transfer</p>
+            </div>
+            <div class="dir1">
+                <div class="pust"></div>
+                <p class="dir2_t">Cash On Delivery</p>
+            </div>
+            <p class="t2_check">Your personal data will be used to support your experience throughout this website, to
+                manage access to your account, and for other purposes described in our <b>privacy policy.</b></p>
+            <button type="submit" class="btn_check">Place order</button>
+        </div>
+    </div>
+</form>
+    <div class="block_sn">
+    <div class="card_sn">
+        <img src="\assets\imges\trophy 1.svg" alt="" class="icon_sn">
+        <div class="text_sn">
+            <p class="z_sn">High Quality</p>
+            <p class="t_sn">crafted from top materials</p>
+        </div>
+    </div>
+    <div class="card_sn">
+        <img src="\assets\imges\guarantee.svg" alt="" class="icon_sn">
+        <div class="text_sn">
+            <p class="z_sn">Warranty Protection</p>
+            <p class="t_sn">Over 2 years</p>
+        </div>
+    </div>
+    <div class="card_sn">
+        <img src="\assets\imges\shipping.svg" alt="" class="icon_sn">
+        <div class="text_sn">
+            <p class="z_sn">Free Shipping</p>
+            <p class="t_sn">Order over 150 $</p>
+        </div>
+    </div>
+    <div class="card_sn">
+        <img src="\assets\imges\customer-support.svg" alt="" class="icon_sn">
+        <div class="text_sn">
+            <p class="z_sn">24 / 7 Support</p>
+            <p class="t_sn">Dedicated support</p>
+        </div>
+    </div>
+</div>
+    <div class="block6">
+    <div class="osn6">
+        <div class="b6">
+            <p class="z6">Funiro</p>
+            <p class="sn6">400 University Drive Suite 200 Coral Gables, <br>
+                FL 33134 USA</p>
+        </div>
+        <div class="b6">
+            <p class="z61">Links</p>
+            <a href="../index.html"><p class="t6">Home</p></a>
+            <a href="../shop.html"><p class="t6">Shop</p></a>
+            <a href="../blog.html"><p class="t6">About</p></a>
+            <a href="../contact.html"><p class="t6">Contact</p></a>
+        </div>
+        <div class="b6">
+            <p class="z61">Help</p>
+            <p class="t6">Payment Options</p>
+            <p class="t6">Returns</p>
+            <p class="t6">Privacy Policies</p>
+        </div>
+        <div class="b6">
+            <p class="z61">Newsletter</p>
+            <form class="formf">
+                <input type="email" id="emailf" name="email" placeholder="Enter Your Email Address" required>
+                <button class="btnf" type="submit">SUBSCRIBE</button>
+
+            </form>
+        </div>
+    </div>
+    <div class="snoska">
+        <p class="snf">2023 furino. All rights reverved</p>
+    </div>
+</div>
+
+</body>
+</html>
