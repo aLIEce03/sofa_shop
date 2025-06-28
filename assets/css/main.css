@@ -43,31 +43,31 @@
 
 @font-face {
     font-family: Pop;
-    src: url(/assets/fonts/Poppins-Medium.ttf);
+    src: url(./assets/fonts/Poppins-Medium.ttf);
     font-weight: 500
 }
 
 @font-face {
     font-family: Pop;
-    src: url(/assets/fonts/Poppins-Bold.ttf);
+    src: url(./assets/fonts/Poppins-Bold.ttf);
     font-weight: 900
 }
 
 @font-face {
     font-family: Pop;
-    src: url(/assets/fonts/Poppins-SemiBold.ttf);
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
     font-weight: 700
 }
 
 @font-face {
     font-family: Pop;
-    src: url(/assets/fonts/Poppins-Regular.ttf);
+    src: url(./assets/fonts/Poppins-Regular.ttf);
     font-weight: 400
 }
 
 @font-face {
     font-family: Pop;
-    src: url(/assets/fonts/Poppins-Light.ttf);
+    src: url(./assets/fonts/Poppins-Light.ttf);
     font-weight: 300
 }
 
@@ -217,7 +217,7 @@ ul {
 
 .block1 {
     height: 44.75rem;
-    background: url(/assets/images/background1.webp)
+    background: url(./assets/images/background1.webp)
 }
 
 .b1 {
