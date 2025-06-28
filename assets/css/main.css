@@ -49,25 +49,25 @@
 
 @font-face {
     font-family: Pop;
-    src: url(assets/fonts/Poppins-Bold.ttf);
+    src: url(/sofa_shop/assets/fonts/Poppins-Bold.ttf);
     font-weight: 900
 }
 
 @font-face {
     font-family: Pop;
-    src: url(assets\fonts\Poppins-SemiBold.ttf);
+    src: url(/sofa_shop/assets/fonts/Poppins-SemiBold.ttf);
     font-weight: 700
 }
 
 @font-face {
     font-family: Pop;
-    src: url(assets\fonts\Poppins-Regular.ttf);
+    src: url(/sofa_shop/assets/fonts/Poppins-Regular.ttf);
     font-weight: 400
 }
 
 @font-face {
     font-family: Pop;
-    src: url(assets\fonts\Poppins-Light.ttf);
+    src: url(/sofa_shop/assets/fonts/Poppins-Light.ttf);
     font-weight: 300
 }
 
@@ -942,7 +942,7 @@ ul {
 
 .block1_shop {
     height: 316px;
-    background: url(/assets/images/fon_shop.webp);
+    background-image: url(/sofa_shop/assets/images/fon_shop.webp);
     text-align: center
 }
 
@@ -1564,7 +1564,7 @@ ul {
 
 .hd {
     height: 316px;
-    background: url(/assets/images/fon_shop.webp);
+    background-image: url(/sofa_shop/assets/images/fon_shop.webp);
     text-align: center;
     display: flex;
     flex-direction: column;
