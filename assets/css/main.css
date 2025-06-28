@@ -43,13 +43,13 @@
 
 @font-face {
     font-family: Pop;
-    src: url(assets\fonts\Poppins-Medium.ttf);
+    src: url(/sofa_shop/assets/fonts/Poppins-Medium.ttf);
     font-weight: 500
 }
 
 @font-face {
     font-family: Pop;
-    src: url(assets\fonts\Poppins-Bold.ttf);
+    src: url(assets/fonts/Poppins-Bold.ttf);
     font-weight: 900
 }
 
